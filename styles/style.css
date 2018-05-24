@@ -1,0 +1,170 @@
+.hide-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 94.8%;
+  opacity: 0;
+  transition: .5s ease;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1px 1px #000;
+}
+.image-content:hover .hide-text {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 60px;
+}
+.btn-primary {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.btn-secondary {
+  background: #343a40;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+.card {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+#services-title {
+  margin-bottom: 100px;
+}
+nav {
+  font-size: 20px;
+}
+body {
+  font-family: 'Abel', sans-serif;
+}
+header {
+  background: url(../img/header.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 15%;
+}
+header h1 {
+  color: #fdf;
+  font-size: 65px;
+  font-weight: 700;
+}
+header p {
+  font-size: 30px;
+  color: #fdf;
+}
+#about {
+  background: #fef;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+#about h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+#about p {
+  font-size: 20px;
+}
+#services {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+#services i {
+  font-size: 35px;
+}
+#services p:first-child {
+  color: #ecb807;
+  font-size: 20px;
+  font-weight: bold;
+}
+#services h2 {
+  color: #fff;
+  font-size: 40px;
+}
+#carouselExampleIndicators {
+  width: 500px;
+  height: 500px;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card p {
+  font-weight: 700;
+}
+.card button:hover {
+  text-decoration: none;
+}
+#faq {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#faq .row:first-child {
+  margin-bottom: 70px;
+}
+#faq .row:first-child p {
+  font-size: 20px;
+  color: #343a40;
+}
+#faq .row:first-child h2 {
+  font-size: 40px;
+}
+#portfolio {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+#portfolio img {
+  margin-left: 0;
+}
+#portfolio img:hover {
+  cursor: pointer;
+}
+#portfolio .row:first-child {
+  margin-bottom: 70px;
+}
+#portfolio .row:first-child p {
+  font-size: 20px;
+  color: #ecb807;
+  font-weight: 700;
+}
+#portfolio .row:first-child h2 {
+  font-size: 40px;
+  color: #fff;
+}
+.point {
+  cursor: pointer;
+}
+#contact {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#contact h2 {
+  margin-bottom: 50px;
+}
+footer {
+  border-top: 1px solid lightgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.modal-title {
+  font-size: 25px;
+}
